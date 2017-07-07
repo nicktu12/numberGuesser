@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  height: 100px;
+  background: #404041;
+  width: 102%;
+  position: relative;
+  top: -8px;
+  left: -8px;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+  font-size: 3em;
+  padding: 19px 0;
+  font-weight: bold;
+  color: #ED458B;
+}
+
+.guesser {
+  color: #E6E7E8;
+  font-weight: 300;
+}
+
+/* input fields */
+
+form {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.field {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 45px;
+  width: 425px;
+  font-size: 30px;
+  color: #d0d2d3;
+}
+
+.guess, #clear-button {
+  background-color: #D0d2d3;
+  border: none;
+  margin: 0px 15px 0px 15px;
+  border-radius: 15px;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+.guess:hover, #clear-button:hover, button:hover {
+  background-color: #ED458B;
+}
+
+.guess:hover:disabled, #clear-button:hover:disabled, button:hover:disabled {
+  background-color: #D0d2d3;
+}
+
+main {
+  text-align: center;
+}
+
+#output-text {
+  color: #404041;
+  font-size: 20px;
+}
+
+#static-output-text {
+  color: #404041;
+  font-size: 20px;
+}
+
+#output-number {
+  margin: 0px;
+  font-size: 150px;
+  color: #ED458B;
+}
+
+#min-bubble, #max-bubble, #output-number {
+  vertical-align: middle;
+}
+
+#min-bubble, #max-bubble {
+  display: inline-block;
+  font-size: 23px;
+  width: 40px;
+  height: 40px;
+  margin: 45px 100px;
+  background-color: #ED458B;
+  padding: 50px;
+  border-radius: 100%;
+  color: white;
+}
+
+#or-enter {
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#user-range-button {
+  background-color: #D0d2d3;
+  border: none;
+  border-radius: 15px;
+  width: 50px;
+  height: 15px;
+  font-size: 10px;
+  color: white;
+  margin: auto;
+}
+
+#reset {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.resetButton {
+  background-color: #D0d2d3;
+  border: none;
+  border-radius: 15px;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  margin: auto;
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Number Guesser</title>
+  <link rel="stylesheet" href = "style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Number <span class="guesser">Guesser</span></h1>
+  </header>
+  <section>
+    <form action="index.html" method="post" aria-describedby="Guess input form">
+      <input type="number" name="userGuess" placeholder="Enter your guess" class="field" id="user-input"><br>
+      <input type="submit" value="Guess" class="guess" id="guess-button" disabled>
+      <input type="submit" value="Clear" id="clear-button" disabled>
+    </form>
+  </section>
+  <main>
+    <p id="static-output-text">Your last guess was:</p>
+    <p id="bubbles"><span id="min-bubble">min</span><span id="output-number">?</span><span id="max-bubble">max</span></p>
+    <p id="output-text">Enter a number between <span id="min-value">0</span> and <span id="max-value">100</span></p>
+    <p id="or-enter">Or enter your own minimum and maximum values</p>
+  </main>
+  <form aria-describedby="Enter your own values form">
+    <input type="number" name="min" placeholder="min" id="user-min" />
+    <input type="number" name="max" placeholder="max" id="user-max" />
+    <button id="user-range-button">Submit</button>
+  <form>
+  <div id="reset">
+    <button type="button" class="resetButton" id="reset-button" disabled>Reset</button>
+<script src="script.js" type="text/javascript"></script>
+</body>
